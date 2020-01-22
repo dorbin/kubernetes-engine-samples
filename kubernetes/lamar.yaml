@@ -21,7 +21,7 @@ spec:
         app: hello-web
     spec:
       containers:
-        - image: gcr.io/gke-deploy5/github.com/dorbin/kubernetes-engine-samples
+        - image: gcr.io/gke-deploy6/github.com/dorbin/kubernetes-engine-samples
           imagePullPolicy: IfNotPresent
           name: hello-app
 
